@@ -1,0 +1,14 @@
+project:
+  type: book
+
+book:
+  title: "partials"
+  chapters:
+    - index.qmd
+    - firstpage.qmd
+
+format:
+  pdf:
+    documentclass: scrreprt
+    template-partials:
+      - before-body.tex
